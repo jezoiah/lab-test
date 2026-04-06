@@ -34,7 +34,7 @@ public class LabSystem {
         } while (choice != 4);
     }
 
-    // ---------------- HEMATOLOGY ----------------
+    // HEMATOLOGY
 
     static void doHema() {
         int i = chooseTest(hemaTests);
@@ -57,9 +57,7 @@ public class LabSystem {
         boolean checked = sc.nextBoolean();
         sc.nextLine();
 
-        HematologyTest t = new HematologyTest(
-                rid, pid, hemaTests[i], result, remarks, checked
-        );
+        HematologyTest t = new HematologyTest(rid, pid, hemaTests[i], result, remarks, checked);
 
         System.out.println("\nOUTPUT:");
         System.out.println(t);
