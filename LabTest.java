@@ -70,11 +70,7 @@ public class LabTest {
         if (showRemarks) {
             System.out.println(toString());
         } else {
-            System.out.println("Record ID: " + recordId
-                    + ", Patient ID: " + patientId
-                    + ", Test: " + testName
-                    + ", Category: " + getCategory()
-                    + ", Result: " + result);
+            System.out.println("Record ID: " + recordId + ", Patient ID: " + patientId + ", Test: " + testName + ", Category: " + getCategory() + ", Result: " + result);
         }
     }
 
