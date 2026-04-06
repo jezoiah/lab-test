@@ -1,9 +1,7 @@
 public class RapidTest extends LabTest {
     private String kitType;
 
-    public RapidTest(int recordId, int patientId, String testName,
-                     String result, String remarks,
-                     String kitType) {
+    public RapidTest(int recordId, int patientId, String testName, String result, String remarks, String kitType) {
         super(recordId, patientId, testName, result, remarks);
         this.kitType = kitType;
     }

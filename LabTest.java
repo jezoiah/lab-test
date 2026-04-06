@@ -5,8 +5,7 @@ public class LabTest {
     private String result;
     private String remarks;
 
-    public LabTest(int recordId, int patientId, String testName,
-                   String result, String remarks) {
+    public LabTest(int recordId, int patientId, String testName, String result, String remarks) {
         this.recordId = recordId;
         this.patientId = patientId;
         this.testName = testName;
