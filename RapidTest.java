@@ -6,8 +6,7 @@ public class RapidTest extends LabTest {
         this.kitType = kitType;
     }
 
-    public RapidTest(int recordId, int patientId, String testName,
-                     String result, String remarks) {
+    public RapidTest(int recordId, int patientId, String testName, String result, String remarks) {
         this(recordId, patientId, testName, result, remarks, "Standard Kit");
     }
 

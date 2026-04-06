@@ -6,8 +6,7 @@ public class HematologyTest extends LabTest {
         this.bloodTypeChecked = bloodTypeChecked;
     }
 
-    public HematologyTest(int recordId, int patientId, String testName,
-                          String result, String remarks) {
+    public HematologyTest(int recordId, int patientId, String testName, String result, String remarks) {
         this(recordId, patientId, testName, result, remarks, false);
     }
 

@@ -13,8 +13,7 @@ public class LabTest {
         this.remarks = remarks;
     }
 
-    public LabTest(int recordId, int patientId, String testName,
-                   String result) {
+    public LabTest(int recordId, int patientId, String testName, String result) {
         this(recordId, patientId, testName, result, "None");
     }
 
