@@ -6,8 +6,7 @@ public class ChemistryTest extends LabTest {
         this.fastingRequired = fastingRequired;
     }
 
-    public ChemistryTest(int recordId, int patientId, String testName,
-                         String result, String remarks) {
+    public ChemistryTest(int recordId, int patientId, String testName, String result, String remarks) {
         this(recordId, patientId, testName, result, remarks, false);
     }
 
